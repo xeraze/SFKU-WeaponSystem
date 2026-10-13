@@ -19,14 +19,12 @@ ReplicatedStorage/Modules/          — Config, DataStore, Weapon (Config / Pars
 ServerScriptService/Server/         — MainServer + gameplay systems (roles, doors, KPZ, weapon, ...)
 StarterPlayerScripts/               — client: weapon HUD, interactions, menu
 StarterGui/MainMenu/                — loading screen and role selection menu
-cmd_1.lua ... cmd_6.lua             — Studio Command Bar install batches
-generate_batches.ps1                — regenerates cmd_*.lua from sources
 ```
 
 ## Installation (Roblox Studio)
 
 1. Open the place, enable **Game Settings → Security → Studio Access to API Services** (built-in DataStore is used).
-2. In **Edit mode**, paste `cmd_1.lua` … `cmd_6.lua` into the Command Bar in order (each batch is under the 100k symbol limit).
+2. Copy the folder tree into the matching services (`ReplicatedStorage`, `ServerScriptService`, `StarterPlayerScripts`, `StarterGui`).
 3. Play. Weapons are picked up from the ground with **E**.
 
 ## Known limitations
