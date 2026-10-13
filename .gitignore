@@ -1,3 +1,7 @@
+cmd_*
+*.ps1
+ValidateWeapons.*
 *.rbxl
 *.rbxlx
 *.rbxl.lock
+*.zip
