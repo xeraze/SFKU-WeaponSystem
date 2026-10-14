@@ -1,6 +1,6 @@
 # Roblox Weapon System
 
-Weapon system for the Roblox project **SFKU** (owner — [@Delk](https://discord.com/users/1016374260811440258)). Lua/Luau, server + client modules, installable into Studio via Command Bar batches.
+Weapon system for the Roblox project **SFKU** (owner — [@Delk](https://discord.com/users/1016374260811440258)). Lua/Luau, server + client modules.
 
 ## Features
 
@@ -34,7 +34,7 @@ StarterGui/MainMenu/                — loading screen and role selection menu
 
 ## License
 
-Proprietary. Copyright (c) 2026 SFKU / SFKU.inc project. All rights reserved.
+Proprietary. Copyright (c) 2026 SFKU project. All rights reserved.
 Publicly available for viewing only (portfolio). See [LICENSE](LICENSE).
 
 The repository also contains supporting project infrastructure (roles, doors, cameras, KPZ, virology, case management) as part of the SFKU project codebase.
